@@ -890,6 +890,7 @@ textarea.error::-webkit-input-placeholder {
   -o-transform: translateX(0);
   opacity: 1;
   visibility: visible;
+  z-index: 99;
 }
 .header .top-menu ul li.active a {
   color: #5ac24e;
@@ -1085,10 +1086,15 @@ textarea.error::-webkit-input-placeholder {
   background: #181818;
   opacity: 0.6;
 }
+
+#title-name{
+  position: relative;
+  top: -40px;
+}
 .card-inner.card-started .title {
   margin: 0 0 30px 0;
   font-size: 66px;
-  line-height: 66px;
+  line-height: 50px;
   color: #fff;
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -1120,10 +1126,12 @@ textarea.error::-webkit-input-placeholder {
   }
   .card-inner.card-started .title span {
     padding-right: 0;
-    color: #113252;
+    color: #fcfcfa;
   }
 
-
+.typ{
+  color: red;
+}
 
   .card-inner.card-started .subtitle {
     margin: 0;
@@ -1162,9 +1170,7 @@ textarea.error::-webkit-input-placeholder {
   color: #fff;
   font-weight: 700;
 }
-.card-inner .card-wrap .title span {
-  color: #5ac24e;
-}
+
 @media (max-width: 560px) {
   .card-inner .card-wrap .title {
     text-align: center;
