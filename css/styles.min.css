@@ -1087,9 +1087,18 @@ textarea.error::-webkit-input-placeholder {
   opacity: 0.6;
 }
 
+#sha-card{
+  height: 257px;
+}
+
 #title-name{
   position: relative;
-  top: -40px;
+  top: -100px;
+}
+
+.sub-name{
+  position: relative;
+  top: -100px;
 }
 .card-inner.card-started .title {
   margin: 0 0 30px 0;
@@ -1498,6 +1507,7 @@ textarea.error::-webkit-input-placeholder {
   padding: 12px;
   position: relative;
   text-align: center;
+  align-content: center;
   min-height: 160px;
 }
 .fuct-items .fuct-item .icon {
@@ -1518,7 +1528,15 @@ textarea.error::-webkit-input-placeholder {
 .client-items {
   padding: 24px;
   font-size: 0;
+  align-content: center;
 }
+
+#list-ed{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .client-items .client-item {
   padding: 14px;
   font-size: 0;
@@ -1881,9 +1899,6 @@ textarea.error::-webkit-input-placeholder {
   margin: 0;
 }
 
-#add{
-  min-height: 105px;
-}
 @media (max-width: 1023px) {
   .contacts-items.card-box {
     padding: 20px 30px 20px 85px;
