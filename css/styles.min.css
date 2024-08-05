@@ -1647,6 +1647,7 @@ textarea.error::-webkit-input-placeholder {
   color: #fff;
   font-weight: 700;
 }
+
 .skills-list ul li .progress {
   position: relative;
   display: block;
@@ -2051,6 +2052,12 @@ textarea.error::-webkit-input-placeholder {
   background: #eee;
   box-shadow: none;
   font-weight: 400;
+}
+
+.map-bg{
+  background-color: #777;
+  height: 100%;
+  width: 100%;
 }
 .card-inner.blogs .search-form input.search-submit {
   margin-top: -34px;
