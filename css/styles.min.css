@@ -913,7 +913,7 @@ textarea.error::-webkit-input-placeholder {
   display: block;
   height: 26px;
   line-height: 26px;
-  font-size: 17px;
+  font-size: 24px;
   color: #a9a9a9;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
